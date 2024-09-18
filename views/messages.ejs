@@ -1,0 +1,11 @@
+<div>
+    <div>
+        <% Mensagens.map((messages) => { %>
+            <div>
+            <p><%=messages.usuario%></p>
+            <p><%=messages.texto%></p>
+            <p><%=messages.criado%></p>
+            </div>
+          <% }) %>
+    </div>
+</div>
